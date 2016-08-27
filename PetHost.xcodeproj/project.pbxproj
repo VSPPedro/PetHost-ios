@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84350B411D71CD5800627F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84350B401D71CD5800627F4B /* AppDelegate.swift */; };
+		84350B431D71CD5800627F4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84350B421D71CD5800627F4B /* ViewController.swift */; };
+		84350B461D71CD5800627F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84350B441D71CD5800627F4B /* Main.storyboard */; };
+		84350B481D71CD5800627F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84350B471D71CD5800627F4B /* Assets.xcassets */; };
+		84350B4B1D71CD5800627F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84350B491D71CD5800627F4B /* LaunchScreen.storyboard */; };
+		84350B531D71D66200627F4B /* cama-azul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84350B521D71D66200627F4B /* cama-azul.jpg */; };
+		84350B551D71D9BF00627F4B /* golden-retrivier.png in Resources */ = {isa = PBXBuildFile; fileRef = 84350B541D71D9BF00627F4B /* golden-retrivier.png */; };
+		84350B571D71E0EC00627F4B /* cadastro1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84350B561D71E0EC00627F4B /* cadastro1.png */; };
+		84350B591D71E0FA00627F4B /* cadastro2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84350B581D71E0FA00627F4B /* cadastro2.png */; };
+		84350B5B1D71E20900627F4B /* cadastro3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84350B5A1D71E20900627F4B /* cadastro3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84350B3D1D71CD5800627F4B /* PetHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84350B401D71CD5800627F4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84350B421D71CD5800627F4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84350B451D71CD5800627F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84350B471D71CD5800627F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84350B4A1D71CD5800627F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84350B4C1D71CD5800627F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84350B521D71D66200627F4B /* cama-azul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cama-azul.jpg"; sourceTree = "<group>"; };
+		84350B541D71D9BF00627F4B /* golden-retrivier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "golden-retrivier.png"; sourceTree = "<group>"; };
+		84350B561D71E0EC00627F4B /* cadastro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cadastro1.png; sourceTree = "<group>"; };
+		84350B581D71E0FA00627F4B /* cadastro2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cadastro2.png; sourceTree = "<group>"; };
+		84350B5A1D71E20900627F4B /* cadastro3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cadastro3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84350B3A1D71CD5800627F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84350B341D71CD5800627F4B = {
+			isa = PBXGroup;
+			children = (
+				84350B3F1D71CD5800627F4B /* PetHost */,
+				84350B3E1D71CD5800627F4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84350B3E1D71CD5800627F4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84350B3D1D71CD5800627F4B /* PetHost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84350B3F1D71CD5800627F4B /* PetHost */ = {
+			isa = PBXGroup;
+			children = (
+				84350B5F1D71F43000627F4B /* imagens */,
+				84350B5E1D71F41100627F4B /* model */,
+				84350B5D1D71F3EA00627F4B /* view */,
+				84350B5C1D71F3DF00627F4B /* controller */,
+				84350B401D71CD5800627F4B /* AppDelegate.swift */,
+				84350B471D71CD5800627F4B /* Assets.xcassets */,
+				84350B4C1D71CD5800627F4B /* Info.plist */,
+			);
+			path = PetHost;
+			sourceTree = "<group>";
+		};
+		84350B5C1D71F3DF00627F4B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				84350B421D71CD5800627F4B /* ViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		84350B5D1D71F3EA00627F4B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				84350B441D71CD5800627F4B /* Main.storyboard */,
+				84350B491D71CD5800627F4B /* LaunchScreen.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		84350B5E1D71F41100627F4B /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		84350B5F1D71F43000627F4B /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				84350B561D71E0EC00627F4B /* cadastro1.png */,
+				84350B541D71D9BF00627F4B /* golden-retrivier.png */,
+				84350B581D71E0FA00627F4B /* cadastro2.png */,
+				84350B5A1D71E20900627F4B /* cadastro3.png */,
+				84350B521D71D66200627F4B /* cama-azul.jpg */,
+			);
+			name = imagens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84350B3C1D71CD5800627F4B /* PetHost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84350B4F1D71CD5800627F4B /* Build configuration list for PBXNativeTarget "PetHost" */;
+			buildPhases = (
+				84350B391D71CD5800627F4B /* Sources */,
+				84350B3A1D71CD5800627F4B /* Frameworks */,
+				84350B3B1D71CD5800627F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetHost;
+			productName = PetHost;
+			productReference = 84350B3D1D71CD5800627F4B /* PetHost.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84350B351D71CD5800627F4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					easd,
+				);
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84350B3C1D71CD5800627F4B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 84350B381D71CD5800627F4B /* Build configuration list for PBXProject "PetHost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84350B341D71CD5800627F4B;
+			productRefGroup = 84350B3E1D71CD5800627F4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84350B3C1D71CD5800627F4B /* PetHost */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84350B3B1D71CD5800627F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84350B571D71E0EC00627F4B /* cadastro1.png in Resources */,
+				84350B4B1D71CD5800627F4B /* LaunchScreen.storyboard in Resources */,
+				84350B481D71CD5800627F4B /* Assets.xcassets in Resources */,
+				84350B551D71D9BF00627F4B /* golden-retrivier.png in Resources */,
+				84350B5B1D71E20900627F4B /* cadastro3.png in Resources */,
+				84350B461D71CD5800627F4B /* Main.storyboard in Resources */,
+				84350B591D71E0FA00627F4B /* cadastro2.png in Resources */,
+				84350B531D71D66200627F4B /* cama-azul.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84350B391D71CD5800627F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84350B431D71CD5800627F4B /* ViewController.swift in Sources */,
+				84350B411D71CD5800627F4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84350B441D71CD5800627F4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84350B451D71CD5800627F4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84350B491D71CD5800627F4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84350B4A1D71CD5800627F4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84350B4D1D71CD5800627F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84350B4E1D71CD5800627F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84350B501D71CD5800627F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PetHost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.ifpb.si.pdm.PetHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84350B511D71CD5800627F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PetHost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.ifpb.si.pdm.PetHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84350B381D71CD5800627F4B /* Build configuration list for PBXProject "PetHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84350B4D1D71CD5800627F4B /* Debug */,
+				84350B4E1D71CD5800627F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84350B4F1D71CD5800627F4B /* Build configuration list for PBXNativeTarget "PetHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84350B501D71CD5800627F4B /* Debug */,
+				84350B511D71CD5800627F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84350B351D71CD5800627F4B /* Project object */;
+}
